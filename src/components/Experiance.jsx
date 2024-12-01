@@ -1,35 +1,23 @@
-import React from 'react'
-
 const services = [
     {
       id: 1,
-      title: "Web Design",
-      description: "Creating visually appealing and user-friendly web designs.",
-    },
-    {
-      id: 2,
       title: "Frontend Development",
       description: "Building responsive and interactive user interfaces.",
     },
     {
-      id: 3,
+      id: 2,
       title: "Backend Development",
       description: "Developing robust server-side logic and databases.",
     },
     {
-      id: 4,
+      id: 3,
       title: "Full-Stack Development",
-      description: "Combining both frontend and backend development skills.",
+      description: "Combining both frontend and backend development skills (MERN Stack).",
     },
     {
-      id: 5,
-      title: "Content Writing",
-      description: "Writing content for your business and companies.",
-    },
-    {
-      id: 6,
-      title: "Digital Marketing",
-      description: "Promote your business with our digital marketing team.",
+      id: 4,
+      title: "Flutter Development",
+      description: "Developing cross-platform application using flutter framework.",
     },
 ];
 

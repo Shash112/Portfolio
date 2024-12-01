@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16'>
+    <div className='bg-black text-white text-center py-16 pt-24'>
         <img src='https://th.bing.com/th/id/OIP.xkVR0PWQY69tZCzh1vDnagHaHa?rs=1&pid=ImgDetMain'
             className='mx-auto md-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'
         />
@@ -15,8 +13,14 @@ const Hero = () => {
             I Specialize in building modern and responsive web applications.
         </p>
         <div className='mt-8 space-x-4'>
-            <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Contact With Me</button>
-            <button className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Resume</button>
+            <a href='#contact' className='bg-gradient-to-r from-green-400 to-blue-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full'>Contact With Me</a>
+            <a 
+              href='/Shashanka_Resume.pdf' 
+              target='_blank' 
+              rel='noopener noreferrer' 
+              className='bg-gradient-to-r from-pink-500 to-yellow-500 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full inline-block'>
+              Resume
+            </a>
         </div>
     </div>
   )

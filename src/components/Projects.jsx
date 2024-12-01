@@ -1,26 +1,22 @@
-import React from 'react'
+import chatImage from "../assets/chat-app.png"
+import ecommerceImage from "../assets/e-commerce.png";
 
 const projects = [
     {
       id: 1,
-      name: "Employee MS",
+      name: "E-Commerce",
       technologies: "MERN Stack",
-      image: "https://th.bing.com/th/id/OIP.jqVIIvqpokug32JgLQOZ4QHaFD?rs=1&pid=ImgDetMain",
-      github: "https://github.com/YouafKhan1",
+      image: ecommerceImage,
+      github: "https://github.com/Shash112/ecommerce-client",
+      demo: "https://ecommerce-client-seven-tau.vercel.app/"
     },
     {
       id: 2,
-      name: "Blog App",
-      technologies: "MERN Stack",
-      image: "https://th.bing.com/th/id/OIP.h9iaQGUlaeOph6B9DDTTDgHaEG?w=1164&h=644&rs=1&pid=ImgDetMain",
-      github: "https://github.com/YouafKhan1",
-    },
-    {
-      id: 3,
-      name: "Book MS",
-      technologies: "MERN Stack",
-      image: "https://th.bing.com/th/id/OIP.jqVIIvqpokug32JgLQOZ4QHaFD?rs=1&pid=ImgDetMain",
-      github: "https://github.com/YouafKhan1",
+      name: "Chatting Website",
+      technologies: "MERN Stack, Socket.io",
+      image: chatImage,
+      github: "https://github.com/Shash112/ChatApp",
+      demo: "https://chatapp-8txf.onrender.com/"
     },
   ];
 
@@ -36,6 +32,7 @@ const Projects = () => {
                         <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
                         <p className='text-gray-400 mb-4'>{project.technologies}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full' target='_blank' rel='noopener noreferrer'>GitHub</a>
+                        <a href={project.demo} className='inline-block bg-gradient-to-r from-pink-400 to-yellow-500 text-white px-4 py-2 rounded-full ml-2' target='_blank' rel='noopener noreferrer'>Live Demo</a>
                     </div>
                 ))}
             </div>
