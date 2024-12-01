@@ -1,7 +1,9 @@
+import heroImage from '../assets/shashank.jpg';
+
 const Hero = () => {
   return (
-    <div className='bg-black text-white text-center py-16 pt-24'>
-        <img src='https://th.bing.com/th/id/OIP.xkVR0PWQY69tZCzh1vDnagHaHa?rs=1&pid=ImgDetMain'
+    <div className='bg-black text-white text-center py-16 pt-24' id="home">
+        <img src={heroImage}
             className='mx-auto md-8 w-48 h-48 rounded-full object-cover transform transition-transform duration-300 hover:scale-105'
         />
         <h1 className='text-4xl font-bold'>
